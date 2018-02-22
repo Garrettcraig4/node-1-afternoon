@@ -17,7 +17,7 @@ module.exports = {
     const messageIndex = messages.findIndex(message => message.id == update);
     let message = messages[messageIndex];
 
-    messages[messageIndex] = {
+    messagesnod[messageIndex] = {
       id: message.id,
       text: text || message.text,
       time: message.time
